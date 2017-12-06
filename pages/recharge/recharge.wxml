@@ -1,0 +1,24 @@
+<!--pages/recharge/recharge.wxml-->
+<view class='recharge'>
+  <view class='v item1'>
+    <text>名称</text>
+    <text>幼信通娃娃机增值服务</text>
+  </view>
+    <view class='v item2'>
+        <text>单价</text>
+        <text>2元/次</text>
+      </view>
+    <view class='v item3'>
+      <text>数量</text>
+      <text>5</text>
+    </view>
+    <view class='v item4'>
+      <text>总价</text>
+      <text>10元</text>
+    </view>
+    <view class='v item4'>
+      <text>合计</text>
+      <text>￥10.0</text>
+      <button class="apply">支付</button>
+    </view>
+</view>

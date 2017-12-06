@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+ 
+       <view>
+              <image src='../../images/icon/订单.png' class="img"> </image>
+       </view>
+       <view>
+                <text class="dingdan">娃娃订单</text>
+       </view>
+       <view>
+                <text class="address">1个待填写</text>
+       </view>
+
+       <view>
+              <image src='../../images/icon/小箭头.png' class="img1"> </image>
+       </view>
+
+</view>
+<import src='../../component/list/indexlist.wxml'/>
+<template is="indexList" data="{{toys: toys,hasMore: hasMore,showLoading:showLoading}}"/>

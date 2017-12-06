@@ -1,0 +1,16 @@
+/* pages/recharge/recharge.wxss */
+
+page{
+  background-color:#F1F1F1;
+  font-size: 10pt
+}
+.recharge{
+  background: #fff
+}
+.v{
+  margin-top: 30rpx;
+  border-bottom-color: 1px #F1F1F1;
+  width: 100%;
+  height: 90rpx;
+  padding: 3rpx;
+}

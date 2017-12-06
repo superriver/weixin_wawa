@@ -1,0 +1,25 @@
+<template name="indexList">
+<block wx:if="{{showLoading}}">
+    <view class="loading">玩命加载中…</view>
+</block>
+<block wx:else>
+    <view class="film">
+        <block wx:for="{{toys}}" wx:for-index="toyIndex" wx:for-item="toyItem" wx:key="Id">
+            <view data-id="{{toyItem.Toy.Id}}" class="film-item" catchtap="viewRoomDetail">
+                <view class="film-cover">
+                    <image src="{{toyItem.Toy.PicUrl}}" class="film-cover-img"></image>
+                </view>
+                <view class="file-intro">
+                    <view class="film-title">{{toyItem.Toy.Desc}}</view>
+                </view>
+            </view>
+        </block>
+        <!-- <block wx:if="{{hasMore}}">
+            <view class="loading-tip">拼命加载中…</view>
+        </block>
+        <block wx:else>
+            <view class="loading-tip">没有更多内容了</view>
+        </block> -->
+    </view>
+</block>
+</template>
