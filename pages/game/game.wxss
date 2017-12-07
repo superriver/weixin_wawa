@@ -1,0 +1,5 @@
+/* pages/game/geme.wxss */
+image{
+  width: 90rpx;
+  height: 90rpx;
+}

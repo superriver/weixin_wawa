@@ -2,7 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/recharge/recharge"
+    "pages/recharge/recharge",
+    "pages/order/orderList",
+    "pages/start/start",
+    "pages/game/game"
   ],
   "window": {
     "backgroundTextStyle": "light",

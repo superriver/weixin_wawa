@@ -1,0 +1,19 @@
+<!--pages/game/geme.wxml-->
+
+<view>
+  <view style='width:100%;height:800rpx;background-color:green'>
+  <view class="section tc">
+  <video id="myVideo" src="" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  
+</view>
+  </view>
+  
+  <view>
+   <image src='../../images/icon/02-上.png' bindtap='top'></image>
+    <image src='../../images/icon/02-下.png' bindtap='bottom'></image>
+   <image src='../../images/icon/02-左.png' bindtap='left'></image>
+
+   <image src='../../images/icon/02-右.png' bindtap='right'></image>
+   <image src='../../images/icon/02-抓.png' bindtap = 'catch' style='width:150rpx;height:150rpx'></image>
+  </view>
+</view>

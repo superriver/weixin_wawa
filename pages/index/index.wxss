@@ -24,19 +24,31 @@
   height: 90rpx;
   background-color: yellow
 } */
-
+page{
+      font-size:  10pt;
+}
+.index{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    box-sizing: border-box;
+  background-color: yellow;
+  width:100%;
+  height: 90rpx;
+  align-items: center;
+}
 .left{
-  align-self: flex-start;
+  text-align: center;
+  margin: 20rpx;
 }
 .right{
-  align-self: flex-end
+    margin: 20rpx;
 }
 .dingdan{
-  font-size:  10pt;
-  padding-right: 30px;
+  padding: 30rpx;
 }
 .address{
-    font-size:  10pt;
+  padding: 30rpx;
 }
 
 .img{

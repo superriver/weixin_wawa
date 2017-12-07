@@ -69,7 +69,7 @@ Page({
         if(res.confirm){
           //充值页面
           wx.navigateTo({
-            url: '../recharge/recharge',
+            url: '../game/game',
           })
         }else{
           //取消

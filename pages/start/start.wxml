@@ -1,0 +1,7 @@
+<!--pages/start/start.wxml-->
+<view>
+  <view style='width:100%;height:800rpx;background-color:green'></view>
+  <text>排队中，前面还有3个人...</text>
+  <button bindcontact='start'> 开始</button>
+
+</view>

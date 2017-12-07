@@ -1,13 +1,11 @@
-// pages/recharge/recharge.js
-var initNum = 1;
+// pages/game/geme.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    num: initNum,
-    total:2,
+  
   },
 
   /**
@@ -64,27 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-
-  
-  add:function(){
-    initNum = initNum +1;
-    var sum = initNum*2;
-    this.setData({
-      num:initNum,
-      total:sum
-    });
-  },
-  reduce:function(e){
-    var value = this.data.num;
-    initNum = initNum-1;
-    var sum = initNum * 2;
-    if (value > 1) {
-      this.setData({
-        num: initNum,     
-        total:sum
-      });
-    }
-    
   }
 })
